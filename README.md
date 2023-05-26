@@ -28,6 +28,14 @@ $ yarn install
 $ yarn dev
 ```
 
+## Running Tests
+
+First set up the app locally, run the following commands for running tests:
+
+```shell
+$ yarn test
+```
+
 Open http://localhost:3000 to view the project in the browser.
 
 ## Development Tips
@@ -41,3 +49,18 @@ Open http://localhost:3000 to view the project in the browser.
 This project was bootstrapped with [Vite](https://vitejs.dev/), a build tool and development server for lightning-fast development and optimized production builds.
 
 For more information about Vite and its features, visit the [official documentation](https://vitejs.dev/guide/).
+
+## Completed Functionalities
+
+- Build custom hook for infinite scrolling
+- Used redux-toolkit as a state management tool.
+- Used RTK query for cahching purposes
+- Wrote some unit tests to test the custom hook
+
+## Points for improvements
+
+- Add more tests, both unit and integrartion tests
+- Introduce routing system
+- Dockerize the application
+- Use sass for styling
+- UI can be improved alot in terms for better user experience
